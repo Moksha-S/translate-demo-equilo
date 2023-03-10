@@ -1,0 +1,11 @@
+body {
+  top: 0 !important;
+}
+/* get rids of the banner at the bottom of the web page */
+.skiptranslate {
+  display: none !important;
+}
+.center-text {
+  text-align: center;
+  width: 100%;
+}

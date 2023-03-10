@@ -17,8 +17,4 @@ export default {
   background: #008080 !important;
   color: white;
 }
-.center-text {
-  text-align: center;
-  width: 100%;
-}
 </style>

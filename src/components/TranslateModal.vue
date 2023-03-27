@@ -6,12 +6,16 @@
     hide-backdrop
     scrollable
   > -->
-    <Translator :countries="countries" @on-country-click="hideModal" />
+  <Translator
+    :countries="countries"
+    
+    />
+    <!-- @on-country-click="hideModal" -->
   <!-- </b-modal> -->
 </template>
 
 <script>
-import { Translator } from 'vue-google-translate';
+import { Translator } from "vue-google-translate";
 export default {
   name: "TranslateModal",
   components: {
@@ -64,3 +68,23 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.skiptranslate {
+  display: none !important;
+}
+
+.hide-translator {
+  height: 0px;
+  width: 0px;
+  max-width: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0);
+}
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf-ti6hGc{
+  display: none;
+}
+</style>

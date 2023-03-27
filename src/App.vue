@@ -2,20 +2,20 @@
   <v-app>
     <NavBar />
     <v-main>
-      <HelloWorld />
+      <HomeText />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import HomeText from "./components/HomeText";
 import NavBar from "./components/NavBar";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    HomeText,
     NavBar,
   },
 
